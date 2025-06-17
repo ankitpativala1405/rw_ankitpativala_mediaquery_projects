@@ -20,7 +20,11 @@
   background-image: url('../asset/image/asset 17.png');
 }
 
-.service-section-submain:hover .image-as-background-1{
+.service-section-submain:hover .image-as-background-1 {
+  background-image: url('../asset/image/asset 17.png');
+}
+
+.skill-section-submain:hover .image-as-bg-1 {
   background-image: url('../asset/image/asset 17.png');
 }
 
@@ -55,6 +59,7 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
