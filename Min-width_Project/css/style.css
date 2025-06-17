@@ -797,6 +797,7 @@ main {
     right: 0;
     margin: auto;
     color: white;
+    transition: 2s;
 }
 
 .skill-round-2 {
@@ -814,6 +815,7 @@ main {
     right: 0;
     margin: auto;
     color: white;
+    transition: 2s;
 }
 
 .skill-submain-2 .skill-round-1 {

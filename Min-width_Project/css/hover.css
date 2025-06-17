@@ -29,6 +29,13 @@
   transition: 1s;
 }
 
+.skill-section-submain:hover .skill-round-2,
+.skill-section-submain:hover .skill-round-1{
+  background-color: white;
+  border: 1px solid #fd7103;
+  color: black;
+  transition: 2s;
+}
 
 .about-image:hover .about-subimage p {
   color: white;
