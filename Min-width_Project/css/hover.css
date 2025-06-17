@@ -1,0 +1,61 @@
+.dwn-btn:hover {
+  transform: translateY(-10px);
+  background: linear-gradient(135deg, #ff9900, #ff6600);
+  transition: all 0.5s ease;
+}
+
+.socia-links-area ul li:hover {
+  background-color: none;
+  background: linear-gradient(135deg, #ff6600, #ff9900);
+  transform: translateY(-10px);
+  transition: all 0.5s ease;
+}
+
+.socia-links-area ul li:hover i {
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.about-image:hover .image-as-background {
+  background-image: url('../asset/image/asset 17.png');
+}
+
+.service-section-submain:hover .image-as-background-1{
+  background-image: url('../asset/image/asset 17.png');
+}
+
+.about-image:hover .about-subimage p {
+  color: white;
+}
+
+.about-btn:hover {
+  transform: translateY(-10px);
+  background: linear-gradient(135deg, #ff9900, #ff6600);
+  transition: all 0.5s ease;
+}
+
+
+
+
+.portfolio-card:hover .overlay {
+  transform: translateX(-98px);
+  transition: transform 0.5s;
+}
+
+.portfolio-card:hover .overlay-1 {
+  transform: translateX(-76px);
+  transition: transform 0.5s;
+}
+
+.portfolio-card:hover .main-image {
+  transform: scale(1.1);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
