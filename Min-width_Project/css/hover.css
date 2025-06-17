@@ -16,17 +16,19 @@
   transition: all 0.5s ease;
 }
 
-.about-image:hover .image-as-background {
-  background-image: url('../asset/image/asset 17.png');
-}
-
-.service-section-submain:hover .image-as-background-1 {
-  background-image: url('../asset/image/asset 17.png');
-}
-
+.service-section-submain:hover .image-as-background-1,
+.about-image:hover .image-as-background,
 .skill-section-submain:hover .image-as-bg-1 {
   background-image: url('../asset/image/asset 17.png');
+  transition: 2s;
 }
+
+.service-section-submain:hover .service-image-icon>p,
+.skill-section-submain:hover .skill-image-icon>p{
+  color: white;
+  transition: 1s;
+}
+
 
 .about-image:hover .about-subimage p {
   color: white;

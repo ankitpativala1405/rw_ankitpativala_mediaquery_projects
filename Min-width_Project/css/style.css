@@ -399,6 +399,7 @@ main {
     background-image: url('../asset/image/asset 16.png');
     background-size: cover;
     background-position: center;
+    transition:all 2s;
 }
 
 .image-as-background-1 {
@@ -407,6 +408,7 @@ main {
     background-image: url('../asset/image/asset 16.png');
     background-size: cover;
     background-position: center;
+    transition:all 2s;
 }
 
 .image-as-background-2 {
@@ -415,6 +417,7 @@ main {
     background-image: url('../asset/image/asset 17.png');
     background-size: cover;
     background-position: center;
+    transition:all 2s;
 }
 
 .image-as-bg-1 {
@@ -423,6 +426,7 @@ main {
     background-image: url('../asset/image/asset 16.png');
     background-size: cover;
     background-position: center;
+    transition:all 2s;
 }
 
 .image-as-bg-2 {
@@ -431,6 +435,7 @@ main {
     background-image: url('../asset/image/asset 17.png');
     background-size: cover;
     background-position: center;
+    transition:all 2s;
 }
 
 .about-subimage-1 h2 {
@@ -684,6 +689,7 @@ main {
 .service-image-icon p {
     font-size: 1.75rem;
     text-transform: uppercase;
+    transition: 1s;
 }
 
 
@@ -767,6 +773,7 @@ main {
 .skill-image-icon p {
     font-size: 1.4rem;
     text-transform: uppercase;
+    transition: 1s;
 }
 
 .service-submain-1>.service-image-icon>img,
