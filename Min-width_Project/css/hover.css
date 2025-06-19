@@ -27,9 +27,25 @@
   background-color: #fd8735;
 }
 
-.service-section-submain:hover stop[stop-color]{
+.service-section-submain:hover .service-image-icon>svg {
+  border-radius: 5px;
+  background-color: #fd8735;
+  transition: 2s;
+}
+
+.service-section-submain:hover .service-image-icon svg stop {
+  transition: 2s;
+  stop-color: white;
+}
+
+.skill-section-submain:hover .skill-image-icon svg stop {
+  transition: 2s;
+  stop-color: white;
+}
+.service-section-submain:hover stop[stop-color] {
   color: white;
 }
+
 .service-section-submain:hover .service-image-icon>p,
 .skill-section-submain:hover .skill-image-icon>p {
   color: white;

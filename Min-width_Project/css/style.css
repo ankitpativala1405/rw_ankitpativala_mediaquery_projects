@@ -399,7 +399,7 @@ main {
     background-image: url('../asset/image/asset 16.png');
     background-size: cover;
     background-position: center;
-    transition:all 2s;
+    transition: all 2s;
 }
 
 .image-as-background-1 {
@@ -408,7 +408,7 @@ main {
     background-image: url('../asset/image/asset 16.png');
     background-size: cover;
     background-position: center;
-    transition:all 2s;
+    transition: all 2s;
 }
 
 .image-as-background-2 {
@@ -417,7 +417,7 @@ main {
     background-image: url('../asset/image/asset 17.png');
     background-size: cover;
     background-position: center;
-    transition:all 2s;
+    transition: all 2s;
 }
 
 .image-as-bg-1 {
@@ -426,7 +426,7 @@ main {
     background-image: url('../asset/image/asset 16.png');
     background-size: cover;
     background-position: center;
-    transition:all 2s;
+    transition: all 2s;
 }
 
 .image-as-bg-2 {
@@ -435,7 +435,7 @@ main {
     background-image: url('../asset/image/asset 17.png');
     background-size: cover;
     background-position: center;
-    transition:all 2s;
+    transition: all 2s;
 }
 
 .about-subimage-1 h2 {
@@ -682,6 +682,11 @@ main {
 .skill-submain-4>.skill-image-icon>img,
 .skill-submain-5>.skill-image-icon>img,
 .skill-submain-6>.skill-image-icon>img {
+    padding: 15px;
+    background-color: #FFECE6;
+}
+
+.service-image-icon>svg {
     padding: 15px;
     background-color: #FFECE6;
 }
