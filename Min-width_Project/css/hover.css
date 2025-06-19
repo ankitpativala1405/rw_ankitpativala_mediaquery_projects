@@ -23,14 +23,21 @@
   transition: 2s;
 }
 
+.service-section-submain:hover .service-image-icon>img {
+  background-color: #fd8735;
+}
+
+.service-section-submain:hover stop[stop-color]{
+  color: white;
+}
 .service-section-submain:hover .service-image-icon>p,
-.skill-section-submain:hover .skill-image-icon>p{
+.skill-section-submain:hover .skill-image-icon>p {
   color: white;
   transition: 1s;
 }
 
 .skill-section-submain:hover .skill-round-2,
-.skill-section-submain:hover .skill-round-1{
+.skill-section-submain:hover .skill-round-1 {
   background-color: white;
   border: 1px solid #fd7103;
   color: black;
@@ -48,6 +55,19 @@
 }
 
 
+/* .service-submain-2>.service-image-icon>img,
+.service-submain-3>.service-image-icon>img,
+.service-submain-4>.service-image-icon>img,
+.service-submain-5>.service-image-icon>img,
+.service-submain-6>.service-image-icon>img,
+.skill-submain-1>.skill-image-icon>img,
+.skill-submain-3>.skill-image-icon>img,
+.skill-submain-4>.skill-image-icon>img,
+.skill-submain-5>.skill-image-icon>img,
+.skill-submain-6>.skill-image-icon>img {
+    padding: 15px;
+    background-color: #fd8735;
+} */
 
 
 .portfolio-card:hover .overlay {
