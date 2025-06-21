@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import "./hover.css";
 
 /* Common CSS */
@@ -8,7 +9,8 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+     font-family: "Figtree", sans-serif;
     background-image: url('../asset/image/body-bg.png');
     justify-content: center;
 }
@@ -370,7 +372,7 @@ main {
     font-family: sans-serif;
     position: absolute;
     bottom: -200px;
-    left: -60px;
+    left: -30px;
 }
 
 /* about section */
@@ -1127,6 +1129,7 @@ main {
     align-items: center;
     gap: 20px;
     max-height: 210px;
+    transition: all 0.5s;
 }
 
 .contact-subimage {
@@ -1221,6 +1224,7 @@ main {
     gap: 20px;
     border-radius: 10px;
     overflow: hidden;
+    color: white;
 }
 
 .contact-social-icon i {
