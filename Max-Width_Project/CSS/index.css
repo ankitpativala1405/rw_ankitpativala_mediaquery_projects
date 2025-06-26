@@ -24,7 +24,6 @@ header section {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-
 }
 
 .header-contact {
@@ -99,11 +98,11 @@ nav {
 
 .hero-image {
     position: relative;
-    width: 100%;
     height: 550px;
-    max-width: 2500px;
+    max-width: 2100px;
     margin: auto;
 }
+
 .swiper {
     width: 100%;
     height: 100%;
@@ -112,7 +111,7 @@ nav {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #444;
+    background: #4c545c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,24 +124,97 @@ nav {
     object-fit: cover;
 }
 
-.hero-image-text{
+
+.hero-image-text {
+    position: relative;
+    height: 550px;
+    max-width: 2100px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+.hero-subimage {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: black;
     text-align: left;
 }
 
+.hero-subimage h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    max-width: 550px;
+}
+
+.hero-subimage span {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffc107;
+}
+
+.hero-subimage p {
+    font-size: 1rem;
+    color: white;
+    margin-top: 16px;
+}
+
+.hero-subimage button {
+    background-color: #624bff;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* interest section */
+.interest-section {
+    box-shadow: 0px 3px 5px #c5c5c5;
+}
+
+.loans-interest-rate {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.interest-div {
+    display: flex;
+    gap: 20px;
+}
+
+/* loan product section */
+.loan-product-section{
+    margin: 100px 0;
+}
+
+.product-header{
+    max-width: 725px;
+    margin: auto;
+    text-align: center;
+}
+
+.product-header h2{
+    color: #151e2b;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.product-header p{
+    padding:0 60px;
+    font-size: 20px;
+    color: #6C757D;
+    margin-bottom: 16px;
+}
 
 /* footer start */
 footer {
     background-color: #151e28;
-    /* position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto; */
 }
 
 .footer-header {
