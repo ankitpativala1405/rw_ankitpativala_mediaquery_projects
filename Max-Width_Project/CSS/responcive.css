@@ -1,0 +1,186 @@
+@media (max-width:992px) {
+  .mobile-menu {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero-subimage {
+    left: 40%;
+  }
+
+  .loans-interest-rate {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .interest-div {
+    margin-top: 20px;
+  }
+
+  .help-subcard {
+    padding: 40px;
+  }
+
+  .help-subcard h3 {
+    font-size: 1.15rem;
+  }
+
+  .partner-div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-header {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer-header>div {
+    margin-top: 20px;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-disc {
+    width: 95%;
+  }
+
+  .footer-links {
+    width: 95%;
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+}
+
+@media(max-width:768px) {
+  header section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-subimage {
+    left: 50%;
+  }
+
+  .swiper-button-prev.custom-nav {
+    left: 30px;
+  }
+
+  .swiper-button-next.custom-nav {
+    right: 30px;
+  }
+
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .People-Choose-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .People-Choose-subcard {
+    max-width: 95%;
+    padding: 20px;
+  }
+
+  .testimonials-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .testimonial-subcard {
+    max-width: 95%;
+    padding: 20px;
+  }
+
+  .company-news-card-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .company-news-subcard {
+    max-width: 95%;
+    padding: 20px;
+  }
+
+  .help-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .help-subcard {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .help-subcard h3 {
+    font-size: 1.25rem;
+  }
+
+  .footer-header>div {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+@media (max-width: 576px) {
+  .partner-div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-inputdiv input[type="email"] {
+    width: 300px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-contact {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .swiper-button-prev.custom-nav {
+    left: 20px;
+  }
+
+  .swiper-button-next.custom-nav {
+    right: 20px;
+  }
+
+  .loans-interest-rate {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+  .footer-inputdiv input[type="email"] {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}

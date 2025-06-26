@@ -10,6 +10,7 @@
 .container {
     max-width: 1150px;
     margin: 0 auto;
+    width: 90%;
 }
 
 header {
@@ -58,6 +59,15 @@ nav {
     padding: 14px;
     color: white;
     font-weight: 600;
+}
+
+.mobile-menu {
+    border: 1px solid #624bff;
+    padding: 5px 6px;
+    color: #624bff;
+    width: fit-content;
+    border-radius: 5px;
+    display: none;
 }
 
 /* hero section start */
@@ -124,6 +134,47 @@ nav {
     object-fit: cover;
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+.custom-nav {
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    color: #ced4da;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #ced4da !important;
+}
+
+.swiper-button-prev.custom-nav {
+    left: 50px;
+}
+
+.swiper-button-next.custom-nav {
+    right: 50px;
+}
+
+.custom-nav:hover {
+    background-color: #624bff;
+    color: white;
+}
 
 .hero-image-text {
     position: relative;
@@ -174,15 +225,15 @@ nav {
 
 /* interest section */
 .interest-section {
-    border: 1px solid #cdc7c7;
+    border-bottom: 1px solid #cdc7c7;
     box-shadow: 0px 3px 5px #c5c5c5;
     z-index: 1;
 }
 
 .loans-interest-rate {
-    display: flex;
-    justify-content: space-between;
     padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .interest-div {
@@ -231,7 +282,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    max-width: 340px;
+    /* max-width: 29.50%; */
     box-shadow: 2px 2px 2px #d1d0d0;
     background-color: #FFFFFF;
 }
@@ -354,7 +405,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 370px;
+    /* max-width: 370px; */
+    max-width: 32.17%;
     padding: 40px;
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -422,7 +474,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: start;
-    max-width: 350px;
+    max-width: 29.50%;
 }
 
 .testimonials-card em {
@@ -447,21 +499,189 @@ nav {
     border-radius: 5px;
 }
 
-.testimonial-user p{
+.testimonial-user p {
     color: white;
     font-weight: 600;
 }
 
-.testimonial-user span{
+.testimonial-user span {
     color: #6C757D;
     font-weight: 600;
 }
 
 /* partner section */
+.partner-section {
+    padding: 15px 0;
+    box-shadow: 0px 3px 5px #aba4a4;
+}
 
-.partner-div{
+.partner-div {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* Company News Section */
+
+.company-news {
+    margin: 100px 0;
+    background-color: #f8f9fa;
+    box-shadow: 0px 3px 5px #aba4a4;
+}
+
+.company-news-main-div {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.company-news-header,
+.help-header {
+    text-align: center;
+    color: #151E28;
+}
+
+.company-news-header h2,
+.help-header h2 {
+    font-size: 2rem;
+}
+
+.company-news-header p {
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+.company-news-card-div {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 50px; */
+    margin: 50px 0;
+}
+
+.company-news-subcard {
+    max-width: 29.50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.company-news-subcard img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+.news-card {
+    border: 1px solid #dbd5d5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px;
+}
+
+.news-card h3 {
+    font-size: 20px;
+    color: #111111;
+}
+
+.news-card p {
+    display: flex;
+    gap: 5px;
+    color: #dbd6d6;
+    margin: 15px 0;
+}
+
+.news-card span {
+    color: #6C757D;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.news-card span a {
+    text-decoration: none;
+    color: #624BFF;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.news-paragraph {
+    color: #6C757D !important;
+    font-size: 1rem;
+}
+
+.news-card>a {
+    color: #624BFF;
+    font-weight: 700;
+}
+
+/* help section start */
+
+.help-section {
+    margin-bottom: 100px;
+}
+
+.help-header p {
+    font-size: 1rem;
+    margin: 15px auto;
+    max-width: 720px;
+    text-align: center;
+    color: #6C757D;
+}
+
+.help-card {
+    display: flex;
+    gap: 30px;
+    margin-top: 65px;
+}
+
+.help-subcard {
+    width: 29.50%;
+    padding: 62px;
+    border: 1px solid #e9e4e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.help-subcard h4 {
+    color: #151E28;
+    font-size: 1rem;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.help-subcard h3 {
+    font-size: 20px;
+    color: #151E28;
+    margin-top: 20px;
+
+}
+
+.help-subcard p {
+    color: #6C757D;
+    font-size: 1rem;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.help-subcard a {
+    color: #624BFF;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.help-subcard>p>a {
+    text-decoration: none;
+    margin-top: -23px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* footer start */
