@@ -342,6 +342,128 @@ nav {
     font-size: 1rem;
 }
 
+.People-Choose-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.People-Choose-subcard {
+    border: 1px solid #cfcbcb67;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 370px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.People-Choose-card h3 {
+    font-size: 20px;
+    color: #151E28;
+    margin-top: 25px;
+}
+
+.People-Choose-card p {
+    color: #6C757D;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.People-Choose-card a {
+    text-decoration: none;
+    color: #624BFF;
+    font-size: 14px;
+    padding: 8px 14px;
+    border: 1.5px solid #624BFF;
+    border-radius: 4px;
+}
+
+/* testimonial section */
+
+.testimonials-section {
+    background-color: #151e28;
+}
+
+.testimonials-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 100px 0;
+    max-width: 1150px;
+    width: 100%;
+}
+
+.testimonials-header {
+    text-align: center;
+}
+
+.testimonials-header h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.testimonials-header p {
+    font-size: 1rem;
+    color: #6C757D;
+    margin: 15px 0;
+}
+
+.testimonials-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.testimonial-subcard {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 350px;
+}
+
+.testimonials-card em {
+    background-color: white;
+    padding: 32px;
+    text-align: justify;
+    color: #151E28;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.testimonial-sub {
+    display: flex;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.testimonial-sub img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.testimonial-user p{
+    color: white;
+    font-weight: 600;
+}
+
+.testimonial-user span{
+    color: #6C757D;
+    font-weight: 600;
+}
+
+/* partner section */
+
+.partner-div{
+    display: flex;
+
+}
+
 /* footer start */
 footer {
     background-color: #151e28;
