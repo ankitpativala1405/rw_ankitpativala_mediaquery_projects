@@ -62,6 +62,7 @@
   header section {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
 
   .hero-subimage {
@@ -173,6 +174,10 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .footer-disc>div{
+    flex-direction: column;
+    gap: 40px;
+  }
 
   .footer-inputdiv input[type="email"] {
     width: 100%;
